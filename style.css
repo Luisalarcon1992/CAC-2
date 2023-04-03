@@ -1,0 +1,51 @@
+.imagen-inicio {
+    border-radius: 50%;
+}
+
+.navbar {
+    padding: 2rem;
+    background-color: #d1e4f6;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos para toda la web en general*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+
+}
+
+/* Sección Principal  */
+
+.hero {
+    background-color: #d8ebfd;
+    min-height: 450px;
+    text-align: center;
+    background-image: url("src/bgi2.png");
+}
+
+.principal {
+    padding: 3rem;
+}
+
+.principal h2 {
+    font-size: 1.5rem;
+    color: #4c4040;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
